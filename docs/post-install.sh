@@ -24,7 +24,7 @@ sudo docker pull jupyter/repo2docker:master
 
 # Download and execute tljh post launch script:
 curl -L https://tljh.jupyter.org/bootstrap.py | sudo python3 - \
-  --admin admin:!0MemphisMemphis10 \
+  --admin $USERNAME:$PASSWORD \
   --showprogress-page \
   --user-requirements-txt-url https://raw.githubusercontent.com/jjmcnelis/jupyterhub-on-aws/master/docs/requirements.txt \
   --plugin git+https://github.com/kafonek/tljh-shared-directory \
