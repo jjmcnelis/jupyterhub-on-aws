@@ -1,0 +1,13 @@
+requests
+numpy
+pandas
+dask
+s3fs
+zarr
+h5py
+netCDF4
+gdal
+xarray
+shapely
+matplotlib
+ipywidgets
